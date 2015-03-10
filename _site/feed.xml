@@ -6,9 +6,50 @@
 </description>
     <link>http://yourdomain.com/</link>
     <atom:link href="http://yourdomain.com/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Tue, 10 Mar 2015 16:33:25 -0300</pubDate>
-    <lastBuildDate>Tue, 10 Mar 2015 16:33:25 -0300</lastBuildDate>
+    <pubDate>Tue, 10 Mar 2015 16:54:46 -0300</pubDate>
+    <lastBuildDate>Tue, 10 Mar 2015 16:54:46 -0300</lastBuildDate>
     <generator>Jekyll v2.5.3</generator>
+    
+      <item>
+        <title>Quiénes somos</title>
+        <description>&lt;p&gt;“Tiempo de María” está formado por un grupo independiente de laicos, integrantes de “El Rosario en Familia Internacional”, que a nivel diocesano se inscribe en la Pastoral de Devoción Popular.&lt;/p&gt;
+
+&lt;p&gt;La fundación “El Rosario en Familia” fue creada por el Siervo de Dios Padre Patrick Peyton csc y actualmente actúa en 16 países, entre ellos Uruguay, donde “Tiempo de María” es su representante.&lt;/p&gt;
+</description>
+        <pubDate>Tue, 10 Mar 2015 00:00:00 -0300</pubDate>
+        <link>http://yourdomain.com/quienes-somos/quienes-somos</link>
+        <guid isPermaLink="true">http://yourdomain.com/quienes-somos/quienes-somos</guid>
+        
+        
+        <category>quienes-somos</category>
+        
+      </item>
+    
+      <item>
+        <title>Misa anual de acción de gracias</title>
+        <description>
+</description>
+        <pubDate>Tue, 10 Mar 2015 00:00:00 -0300</pubDate>
+        <link>http://yourdomain.com/actividades/misa-anual-de-accion-de-gracias</link>
+        <guid isPermaLink="true">http://yourdomain.com/actividades/misa-anual-de-accion-de-gracias</guid>
+        
+        
+        <category>actividades</category>
+        
+      </item>
+    
+      <item>
+        <title>Encuentro de directores internacionales</title>
+        <description>
+</description>
+        <pubDate>Tue, 10 Mar 2015 00:00:00 -0300</pubDate>
+        <link>http://yourdomain.com/actividades/encuentro-de-directores-internacionales</link>
+        <guid isPermaLink="true">http://yourdomain.com/actividades/encuentro-de-directores-internacionales</guid>
+        
+        
+        <category>actividades</category>
+        
+      </item>
     
       <item>
         <title>Campaña Nacional del Santo Rosario</title>
