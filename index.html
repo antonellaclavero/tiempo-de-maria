@@ -6,15 +6,6 @@ layout: default
 
   <h1 class="page-heading"></h1>
 
-  <ul>
-  {% for actividad in site.categories.actividades %}
-    <li>
-      <a href="{{actividad.url}}">{{actividad.title}}</a>
-    </li>
-  {% endfor %}
-</ul>
-
-
   <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
 
 </div>
