@@ -36,6 +36,7 @@ header,
 }
 header a {
 	color: #222;
+	margin-bottom: 1em;
 }
 .intro img {
   width: 300px;
