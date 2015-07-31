@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Tiempo de Adviento"
+title:  "Tiempo de Navidad"
 date:   2015-07-31 15:16:00
 categories: Reflexion
 ---
