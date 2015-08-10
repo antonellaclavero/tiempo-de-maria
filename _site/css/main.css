@@ -60,18 +60,28 @@ footer a {
 .intro h2,
 p {
 	text-align: center;
-	/*font-style: italic;*/
-	line-height: 1em;
+	font-style: italic;
 	margin-bottom: 0.5em;
 	color: #222;
 	font-weight: lighter;
 }
-
-/* page: que-hacemos*/
-#que-hacemos {
+/* page: quienes-somos*/
+#que-hacemos,
+#quienes-somos {
 	padding: 15px 20%;
 }
-#que-hacemos h1 {
+#quienes-somos p {
+	text-align: left;
+	font-style: normal;
+}
+#quienes-somos h2 {
+	font-size: 1.5em;
+	margin: 1em 0 1em 0;
+}
+/* page: que-hacemos*/
+
+#que-hacemos,
+#quienes-somos h1 {
 	text-align: center;
 	margin-bottom: 1em;
 }
