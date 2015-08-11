@@ -35,7 +35,7 @@ nav {
 	text-align: right;
 }
 
-footer {
+/*footer {
 	background-color: #FFC9B5;
 	padding: 40px 10%;
 }
@@ -47,7 +47,7 @@ footer p {
 footer a {
 	color: #fff;
 	text-align: center;
-}
+}*/
 
 /*Home*/
 
@@ -81,13 +81,17 @@ p {
 }
 /* page: que-hacemos*/
 
-#que-hacemos,
+#que-hacemos h1 {
+	text-align: center;
+	margin-bottom: 1em;
+}
 #quienes-somos h1 {
 	text-align: center;
 	margin-bottom: 1em;
 }
 #que-hacemos p {
 	text-align: left;
+	font-style: normal;
 }
 #que-hacemos h3 {
 	margin: 1em 0 1em 0;
