@@ -30,9 +30,14 @@ a {
 ul {
 	list-style: none;
 }
-
 nav {
-	text-align: right;
+	text-align: left;
+}
+/*header */
+
+p.title-left {
+	text-align: left;
+	font-style: normal;
 }
 
 /*footer {
@@ -53,10 +58,9 @@ footer a {
 
 .intro img {
   width: 300px;
-  margin: 0.5em;
   display: block;
   margin: 0 auto;
-  border-radius: 50%;
+  margin-bottom: 2em;
 }
 .intro h2,
 p {
