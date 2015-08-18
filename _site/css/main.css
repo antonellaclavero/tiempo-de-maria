@@ -24,7 +24,6 @@ p {
 a {
 	text-decoration: none;
 	font-size: 1.2em;
-	color: #222;
 }
 ul {
 	list-style: none;
@@ -35,9 +34,13 @@ header,
 #home {
 	background-color: #F5F1E3;
 }
-p.title-left {
+header .title-center {
 	text-align: left;
 	font-style: normal;
+}
+header p {
+	margin: 0;
+	padding-bottom: 15px;
 }
 header nav ul {
 	float: left;
@@ -49,6 +52,9 @@ header nav li {
 header nav a {
 	display: block;
 	border: 2px solid #938BA1;
+	margin-bottom: 2px;
+    padding: 10px 12px;
+    color: #938BA1;
 }
 
 /*Home*/
@@ -63,9 +69,13 @@ header nav a {
 p {
 	text-align: center;
 	font-style: italic;
-	margin-bottom: 0.5em;
-	color: #222;
+	margin: 0 0 0.5em 3em;
+	color: #938BA1;
 	font-weight: lighter;
+}
+.intro p.cite {
+	margin-bottom: 0;
+	padding-bottom: 1em;
 }
 /* page: quienes-somos*/
 #que-hacemos,
@@ -144,4 +154,30 @@ article#oraciones-del-santo-rosario li {
 	font-size: 1.2em;
 	margin-bottom: 0.5em;
 	line-height: 1.2em;
+}
+
+
+/*footer*/
+
+footer {
+	background-color: #E78F8E;
+	padding: 35px 15%;
+	text-align: center;
+}
+footer p {
+	color: #fff;
+	font-style: normal;
+	font-size: 1.5em;
+}
+footer a.email {
+	text-transform: uppercase;
+	border: 2px solid #FFF;
+	color: #FFF;
+	font-size: 0.8em;
+	padding: 10px 15px;
+}
+footer a.footer-link {
+	margin-left: 3.5em;
+	color: #fff;
+	font-size: 1.2em;
 }
