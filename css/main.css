@@ -119,20 +119,28 @@ p {
 }
 
 /* page: santo-rosario*/
-section#santo-rosario {
-	padding: 15px 10%;
-	background-color: #F5F1E3;
+section#santo-rosario ul.menu-align-left {
+	padding: 20px 19%;
 }
-section#santo-rosario li {
-	display: inline-block;
-	border: 2px solid #938BA1;
-	margin: 0.5em 0 0.5em 0;
-	padding: 15px 60px
+section#santo-rosario ul.menu-align-left li {
+	text-align: left;
+    margin: 0.5em 0 0.5em 0;
 }
-section#santo-rosario a {
+.bulleted-list li:before {
+  left: 0;
+  top: -1px;
+  content: "• ";
+  font-size: 23px;
+  color: #E78F8E;
+}
+section#santo-rosario ul.menu-align-left a {
 	text-transform: uppercase;
 	text-align: center;
 	color: #938BA1;
+}
+section#santo-rosario ul.menu-align-left a:hover {
+	color: #E78F8E;
+	border-bottom: 1px solid #E78F8E;
 }
 section#acerca-de-santo-rosario {
 	padding: 15px 15%;
@@ -140,10 +148,16 @@ section#acerca-de-santo-rosario {
 section#acerca-de-santo-rosario h2 {
 	text-align: center;
 	margin: 1em 0 1em 0;
+	color: #E78F8E;
 }
 section#acerca-de-santo-rosario p {
 	text-align: left;
 	font-style: normal;
+}
+article#oraciones-del-santo-rosario h3 {
+	font-size: 1.5em;
+    margin: 1em 0 1em 2.3em;
+    color: #E78F8E;
 }
 article#oraciones-del-santo-rosario img {
 	display: block;
@@ -157,8 +171,19 @@ article#oraciones-del-santo-rosario p.footer-image {
 }
 article#oraciones-del-santo-rosario li {
 	font-size: 1.2em;
-	margin-bottom: 0.5em;
+	margin: 0 0 0.5em 3em;
 	line-height: 1.2em;
+}
+article#misterios-del-santo-rosario a {
+	margin: 0 0 1em 3em;
+}
+article#misterios-del-santo-rosario a:hover {
+	color: #E78F8E;
+	border-bottom: 1px solid #E78F8E;
+	font-size: 1.2em;
+}
+article#misterios-del-santo-rosario p {
+	font-size: 1.2em;
 }
 
 
