@@ -80,11 +80,12 @@ p {
 /* page: quienes-somos*/
 #que-hacemos,
 #quienes-somos {
-	padding: 15px 20%;
+	padding: 30px 22%;
 }
 #quienes-somos p {
 	text-align: left;
 	font-style: normal;
+	margin: 0;
 }
 #quienes-somos h2 {
 	font-size: 1.5em;
@@ -103,6 +104,8 @@ p {
 #que-hacemos p {
 	text-align: left;
 	font-style: normal;
+	margin: 0;
+	line-height: 1.5em;
 }
 #que-hacemos h3 {
 	margin: 1em 0 1em 0;
@@ -111,6 +114,8 @@ p {
 #que-hacemos li {
 	margin-bottom: 0.5em;
 	font-size: 1.2em;
+	line-height: 1.2em;
+	color: #938BA1;
 }
 
 /* page: santo-rosario*/
