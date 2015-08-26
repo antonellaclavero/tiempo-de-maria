@@ -28,6 +28,13 @@ a {
 ul {
 	list-style: none;
 }
+.bulleted-list li:before {
+	left: 0;
+	top: -1px;
+	content: "• ";
+	font-size: 23px;
+	color: #E78F8E;
+}
 
 /*header */
 header,
@@ -126,13 +133,7 @@ section#santo-rosario ul.menu-align-left li {
 	text-align: left;
     margin: 0.5em 0 0.5em 0;
 }
-.bulleted-list li:before {
-  left: 0;
-  top: -1px;
-  content: "• ";
-  font-size: 23px;
-  color: #E78F8E;
-}
+
 section#santo-rosario ul.menu-align-left a {
 	text-transform: uppercase;
 	text-align: center;
@@ -185,8 +186,33 @@ article#misterios-del-santo-rosario a:hover {
 article#misterios-del-santo-rosario p {
 	font-size: 1.2em;
 }
+/*page: santo rosario index misterios*/
 
+section#misterios-gozosos.misterios {
+	padding: 30px 19%;
+}
+section#misterios-gozosos h2 {
+	text-align: center;
+}
+section#misterios-gozosos h2.subtitle {
+	font-size: 1.5em;
+}
+/*section#misterios-gozosos div.details {
+	position: relative;
+	top: 0;
+	left: 0;
+}*/
+section#misterios-gozosos h3 {
+	font-size: 1.2em;
+	text-align: left;
+}
+/*section#misterios-gozosos img {
 
+}*/
+section#misterios-gozosos p {
+	font-size: 1.2em;
+	text-align: left;
+}
 /*footer*/
 
 footer {
