@@ -10,6 +10,7 @@ body {
 }
 h1 {
 	font-size: 2.2em;
+	text-align: center;
 }
 h2 {
 	font-size: 2em;
@@ -35,7 +36,26 @@ ul {
 	font-size: 23px;
 	color: #E78F8E;
 }
-
+ul.menu-align-left {
+	padding: 20px 19%;
+}
+ul.menu-align-left li {
+	text-align: left;
+    margin: 0.5em 0 0.5em 0;
+}
+h2.subtitle {
+	font-size: 1.5em;
+}
+ul.menu-align-center {
+	padding: 20px 33%;
+}
+ul.menu-align-center li {
+	text-align: left;
+}
+ul.menu-align-center a:hover {
+	color: #E78F8E;
+	border-bottom: 1px solid #E78F8E;
+}
 /*header */
 header,
 #home {
@@ -72,7 +92,7 @@ header nav a {
   margin: 0 auto;
   margin-bottom: 2em;
 }
-.intro h2,
+.intro#home h2,
 p {
 	text-align: center;
 	font-style: italic;
@@ -126,14 +146,14 @@ p {
 }
 
 /* page: santo-rosario*/
-section#santo-rosario ul.menu-align-left {
+/*section#santo-rosario ul.menu-align-left {
 	padding: 20px 19%;
 }
 section#santo-rosario ul.menu-align-left li {
 	text-align: left;
     margin: 0.5em 0 0.5em 0;
 }
-
+*/
 section#santo-rosario ul.menu-align-left a {
 	text-transform: uppercase;
 	text-align: center;
@@ -205,9 +225,9 @@ section.misterios li.wrapper-cards img {
 section.misterios h2 {
 	text-align: center;
 }
-section.misterios h2.subtitle {
+/*section.misterios h2.subtitle {
 	font-size: 1.5em;
-}
+}*/
 section.misterios h3 {
 	font-size: 1.2em;
 	text-align: left;
@@ -219,6 +239,35 @@ section.misterios p {
 	text-align: left;
 	line-height: 1.2em;
 }
+/*Styles for index "Oraciones"*/
+#oraciones h2 {
+	text-align: center;
+}
+#oraciones li {
+	text-align: center;
+}
+section.wrapper-prayers {
+	padding: 30px 30%;
+}
+section#oraciones h2 {
+	margin-bottom: 0.5em;
+}
+section.wrapper-prayers h3 {
+	margin-bottom: 1em;
+}
+section.wrapper-prayers p {
+	text-align: left;
+	font-style: normal;
+	margin: 0;
+	line-height: 1.2em;
+}
+section.wrapper-prayers article {
+	margin: 2em 0;
+}
+#oraciones li {
+	text-align: left;
+}
+
 /*footer*/
 
 footer {
