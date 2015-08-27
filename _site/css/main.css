@@ -188,30 +188,33 @@ article#misterios-del-santo-rosario p {
 }
 /*page: santo rosario index misterios*/
 
-section#misterios-gozosos.misterios {
+section.misterios {
 	padding: 30px 19%;
 }
-section#misterios-gozosos.misterios li.wrapper-cards {
+section.misterios li.wrapper-cards {
 	-webkit-column-count: 1;
     -webkit-column-gap: 2em;
+    padding: 3% 0;
 }
-section#misterios-gozosos.misterios li.wrapper-cards img {
+section.misterios li.wrapper-cards img {
 	float: left;
 	margin-right: 1em;
+	height: 202px;
+	width: 150px;
 }
-section#misterios-gozosos.misterios h2 {
+section.misterios h2 {
 	text-align: center;
 }
-section#misterios-gozosos.misterios h2.subtitle {
+section.misterios h2.subtitle {
 	font-size: 1.5em;
 }
-section#misterios-gozosos.misterios h3 {
+section.misterios h3 {
 	font-size: 1.2em;
 	text-align: left;
 	line-height: 1.2em;
 	margin: 0.5em 0 0.5em 0;
 }
-section#misterios-gozosos.misterios p {
+section.misterios p {
 	font-size: 1.2em;
 	text-align: left;
 	line-height: 1.2em;
