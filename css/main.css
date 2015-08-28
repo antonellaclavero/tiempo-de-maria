@@ -57,17 +57,21 @@ ul.menu-align-center a:hover {
 	border-bottom: 1px solid #E78F8E;
 }
 /*header */
+
 header,
 #home {
 	background-color: #F5F1E3;
 }
 header .title-center {
-	text-align: left;
+	text-align: center;
 	font-style: normal;
 }
 header p {
 	margin: 0;
 	padding-bottom: 15px;
+}
+header nav {
+	padding: 0 2%;
 }
 header nav ul {
 	float: left;
@@ -78,10 +82,14 @@ header nav li {
 }
 header nav a {
 	display: block;
-	border: 2px solid #938BA1;
+	border: 2px solid #E78F8E;
 	margin-bottom: 2px;
     padding: 10px 12px;
-    color: #938BA1;
+    color: #383838;
+}
+header nav a:hover {
+	color: #E78F8E;
+
 }
 
 /*Home*/
@@ -97,7 +105,7 @@ p {
 	text-align: center;
 	font-style: italic;
 	margin: 0 0 0.5em 3em;
-	color: #938BA1;
+	color: #383838;
 	font-weight: lighter;
 }
 .intro p.cite {
@@ -142,7 +150,7 @@ p {
 	margin-bottom: 0.5em;
 	font-size: 1.2em;
 	line-height: 1.2em;
-	color: #938BA1;
+	color: #383838;
 }
 
 /* page: santo-rosario*/
@@ -157,7 +165,7 @@ section#santo-rosario ul.menu-align-left li {
 section#santo-rosario ul.menu-align-left a {
 	text-transform: uppercase;
 	text-align: center;
-	color: #938BA1;
+	color: #383838;
 }
 section#santo-rosario ul.menu-align-left a:hover {
 	color: #E78F8E;
