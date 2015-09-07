@@ -18,6 +18,7 @@ h2 {
 }
 h3 {
 	font-size: 1.7em;
+	color: #E78F8E;
 }
 p {
 	font-size: 1.2em;
@@ -68,6 +69,12 @@ ul.menu-align-center a:hover {
 }
 section.pages.header {
 	padding: 30px 22%;
+}
+section.pages.content {
+	padding: 15px 22%;
+}
+section.sub-header {
+	padding: 8px 20%;
 }
 /*header */
 
@@ -197,7 +204,12 @@ article#misterios-del-santo-rosario a:hover {
 article#misterios-del-santo-rosario p {
 	font-size: 1.2em;
 }
-
+p.intro {
+	font-style: normal;
+	padding: 50px 9%;
+	font-weight: 400;
+    line-height: 1.2em;
+}
 
 
 
@@ -265,22 +277,36 @@ section.wrapper-prayers article {
 }
 
 /*Styles for index entre-nosotros*/
-section#entre-nosotros p.intro {
+/*section#entre-nosotros,
+#campanas p.intro {
 	font-style: normal;
-	padding: 60px 12%;
+	padding: 50px 9%;
 	font-weight: 400;
     line-height: 1.2em;
-}
+}*/
 section.pages#list-about {
 	padding: 10px 9%;
 }
-section.pages#list-about h2 {
-	margin: 1em 0 1em 3em;
+section.pages#list-about h3 {
+	margin: 1em 0 1em 3.5em;
 }
 section.pages#list-about p {
 	text-align: left;
 	margin: 0 0 0.5em 5em;
 	font-style: normal;
+}
+/*Styles for index campanas*/
+section.pages.content-bells {
+	padding: 14px 10%;
+}
+section.pages.content-bells h3 {
+	margin: 0.5em 0 0.5em 2.1em;
+}
+section.pages.content-bells p {
+	font-style: normal;
+	font-weight: 300;
+    line-height: 1.2em;
+    text-align: left;
 }
 
 /*footer*/
