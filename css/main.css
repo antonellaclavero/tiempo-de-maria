@@ -29,6 +29,7 @@ p {
 a {
 	text-decoration: none;
 	font-size: 1.2em;
+	color: #404040;
 }
 ul {
 	list-style: none;
@@ -142,29 +143,32 @@ p {
 	margin-bottom: 0;
 	padding-bottom: 1em;
 }
-#quienes-somos {
-	min-height: 515px;
+section#quienes-somos {
+	min-height: 480px;
 }
-#quienes-somos p {
+section#quienes-somos p {
 	text-align: left;
 	font-style: normal;
 	margin: 0;
 }
-#quienes-somos h2 {
-	font-size: 1.5em;
-	margin: 1em 0 1em 0;
+section#quienes-somos h3 {
+	margin: 1em 0 0.5em 0;
 }
-#que-hacemos p {
+section#quienes-somos a:hover {
+	color: #E78F8E;
+	border-bottom: 1px solid #E78F8E
+}
+section#que-hacemos p {
 	text-align: left;
 	font-style: normal;
 	margin: 0;
 	line-height: 1.5em;
 }
-#que-hacemos h3 {
+section#que-hacemos h3 {
 	margin: 1em 0 1em 0;
 	text-align: center;
 }
-#que-hacemos li {
+section#que-hacemos li {
 	margin-bottom: 0.5em;
 	font-size: 1.2em;
 	line-height: 1.2em;
@@ -205,15 +209,21 @@ article#oraciones-del-santo-rosario li {
 	line-height: 1.2em;
 }
 article#misterios-del-santo-rosario a {
-	margin: 0 0 1em 3em;
+	margin: 0 0 1em 0;
+	color: #404040;
+	font-size: 1em;
 }
 article#misterios-del-santo-rosario a:hover {
 	color: #E78F8E;
 	border-bottom: 1px solid #E78F8E;
-	font-size: 1.2em;
+	font-size: 1em;
+}
+article#misterios-del-santo-rosario h3 {
+	margin: 0.5em 0 0.5em 0;
 }
 article#misterios-del-santo-rosario p {
-	font-size: 1.2em;
+	font-size: 1em;
+	margin: 0 0 0.5em 0;
 }
 p.intro {
 	font-style: normal;
@@ -253,6 +263,7 @@ section.misterios p {
 	font-size: 1.2em;
 	text-align: left;
 	line-height: 1.2em;
+	padding: 0 9%;
 }
 /*Styles for index "Oraciones"*/
 #oraciones-menu {
