@@ -88,14 +88,14 @@ header {
 header a.title {
 	font-size: 1.8em;
 	margin: 1em 0 1em 5.5em;
-	color: #404040;
+	color: #202020;
 }
 header p {
 	margin: 0 0 0 4.5em;
 	padding: 8px 0 15px 0;
 	font-style: normal;
 	font-size: 1.8em;
-	color: #404040; 
+	color: #202020; 
 }
 header nav {
 	padding: 0 2%;
@@ -227,9 +227,10 @@ article#misterios-del-santo-rosario p {
 }
 p.intro {
 	font-style: normal;
-	padding: 50px 6% 0;
+	padding: 25px 5% 0;
 	font-weight: 400;
-    line-height: 1.2em;
+    line-height: 1.3em;
+    text-align: left;
 }
 
 
@@ -296,6 +297,9 @@ section.wrapper-prayers article {
 }
 #oraciones li {
 	text-align: left;
+}
+section#reflexiones {
+	min-height: 480px;
 }
 
 /*Styles for index entre-nosotros*/
