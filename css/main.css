@@ -104,6 +104,7 @@ header nav {
 header nav ul {
 	float: left;
 	position: relative;
+	margin-top: 1em;
 }
 header nav li {
 	display: block;
@@ -306,14 +307,7 @@ section#reflexiones {
 	min-height: 480px;
 }
 
-/*Styles for index entre-nosotros*/
-/*section#entre-nosotros,
-#campanas p.intro {
-	font-style: normal;
-	padding: 50px 9%;
-	font-weight: 400;
-    line-height: 1.2em;
-}*/
+
 section.pages#list-about {
 	padding: 7em 9%;
 }
@@ -326,6 +320,9 @@ section.pages#list-about p {
 	font-style: normal;
 }
 /*Styles for index campanas*/
+ul.menu-align-center.bulleted-list.bells-list {
+	padding: 20px 0;
+}
 section.pages.content-bells {
 	padding: 14px 10%;
 }
@@ -333,7 +330,7 @@ section.pages.content-bells h3 {
 	margin: 0.5em 0 0.5em 3.1em;
 }
 section.pages.content-bells h4 {
-	margin: 0 0 0 3em;
+    margin: 0 0 1em 5.3em;
 }
 section.pages.content-bells p {
 	font-style: normal;
@@ -351,6 +348,7 @@ section.emisoras li {
 	margin: 1em 0 1em 0;
 	font-size: 1.2em;
 	color: #404040;
+	line-height: 1em;
 }
 section.emisoras h3 {
 	margin: 1em 0 1em 0;
