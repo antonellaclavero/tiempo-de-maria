@@ -2,12 +2,11 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tiempo de María</title>
-    <description>Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description.
-</description>
-    <link>http://antonellaclavero.github.io/tiempo-de-maria//</link>
-    <atom:link href="http://antonellaclavero.github.io/tiempo-de-maria//feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Wed, 23 Sep 2015 10:29:46 -0300</pubDate>
-    <lastBuildDate>Wed, 23 Sep 2015 10:29:46 -0300</lastBuildDate>
+    <description></description>
+    <link>/</link>
+    <atom:link href="/feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Wed, 23 Sep 2015 10:45:48 -0300</pubDate>
+    <lastBuildDate>Wed, 23 Sep 2015 10:45:48 -0300</lastBuildDate>
     <generator>Jekyll v2.5.3</generator>
     
       <item>
@@ -657,8 +656,8 @@ Perfecto en cuanto Dios, como hombre, mi Dios es frágil.&lt;/p&gt;
 
 </description>
         <pubDate>Fri, 31 Jul 2015 12:38:00 -0300</pubDate>
-        <link>http://antonellaclavero.github.io/tiempo-de-maria//reflexion/tiempo-de-cuaresma</link>
-        <guid isPermaLink="true">http://antonellaclavero.github.io/tiempo-de-maria//reflexion/tiempo-de-cuaresma</guid>
+        <link>/reflexion/tiempo-de-cuaresma</link>
+        <guid isPermaLink="true">/reflexion/tiempo-de-cuaresma</guid>
         
         
         <category>reflexion</category>
@@ -910,8 +909,8 @@ La estrella en la punta del pino recuerda a la estrella de Belén y representa l
 
 </description>
         <pubDate>Fri, 31 Jul 2015 12:16:00 -0300</pubDate>
-        <link>http://antonellaclavero.github.io/tiempo-de-maria//reflexion/tiempo-de-navidad</link>
-        <guid isPermaLink="true">http://antonellaclavero.github.io/tiempo-de-maria//reflexion/tiempo-de-navidad</guid>
+        <link>/reflexion/tiempo-de-navidad</link>
+        <guid isPermaLink="true">/reflexion/tiempo-de-navidad</guid>
         
         
         <category>reflexion</category>
@@ -1089,8 +1088,8 @@ Es de ustedes y de nosotros también, como María Magdalena; y como ella vivirem
 
 </description>
         <pubDate>Fri, 31 Jul 2015 11:57:00 -0300</pubDate>
-        <link>http://antonellaclavero.github.io/tiempo-de-maria//reflexion/tiempo-de-pascua</link>
-        <guid isPermaLink="true">http://antonellaclavero.github.io/tiempo-de-maria//reflexion/tiempo-de-pascua</guid>
+        <link>/reflexion/tiempo-de-pascua</link>
+        <guid isPermaLink="true">/reflexion/tiempo-de-pascua</guid>
         
         
         <category>reflexion</category>
@@ -1292,8 +1291,8 @@ Compromiso de ser reales y legítimos discípulos de Jesús, que como Dios y com
 
 </description>
         <pubDate>Fri, 31 Jul 2015 11:57:00 -0300</pubDate>
-        <link>http://antonellaclavero.github.io/tiempo-de-maria//reflexion/tiempo-de-adviento</link>
-        <guid isPermaLink="true">http://antonellaclavero.github.io/tiempo-de-maria//reflexion/tiempo-de-adviento</guid>
+        <link>/reflexion/tiempo-de-adviento</link>
+        <guid isPermaLink="true">/reflexion/tiempo-de-adviento</guid>
         
         
         <category>reflexion</category>
@@ -1942,8 +1941,8 @@ Teléfono: No tiene.  Pero basta con que pienses en Él con fe, además de que e
 &lt;p&gt;La caridad cristiana es eso: amor y generosidad.  Es lo que se necesita para vivirla.&lt;/p&gt;
 </description>
         <pubDate>Fri, 31 Jul 2015 11:57:00 -0300</pubDate>
-        <link>http://antonellaclavero.github.io/tiempo-de-maria//campanas/campanas</link>
-        <guid isPermaLink="true">http://antonellaclavero.github.io/tiempo-de-maria//campanas/campanas</guid>
+        <link>/campanas/campanas</link>
+        <guid isPermaLink="true">/campanas/campanas</guid>
         
         
         <category>campanas</category>
