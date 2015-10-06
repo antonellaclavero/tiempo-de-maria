@@ -324,7 +324,7 @@ section.pages#list-about p {
 }
 /*Styles for index campanas*/
 ul.menu-align-center.bulleted-list.bells-list {
-	padding: 20px 0;
+	padding: 20px 33%;
 }
 section.pages.content-bells {
 	padding: 14px 10%;
@@ -516,6 +516,9 @@ footer a.footer-link {
 	}
 }
 @media screen and (max-width: 450px) {
+	header {
+		background-color: #fff;
+	}
 	header nav ul {
 		float: none;
 	}
@@ -564,5 +567,47 @@ footer a.footer-link {
 	}
 	article#promesas-del-santo-rosario ol {
 		margin: 1em 0 0 2em;
+	}
+	section.wrapper-prayers {
+    	padding: 27px 0%;
+    }
+    section.wrapper-prayers article {
+    	margin: 2em 0 0 3%;
+	}
+	ul.menu-align-center {
+    	padding: 20px 12%;
+    	margin: 1em 10% 0 5%;
+    }
+    section.tiempos-liturgicos {
+    	margin: 0;
+    	padding: 30px 7%;
+    }
+    section.pages#list-about {
+    	padding: 0 3%;
+    }
+    section.pages#list-about h3 {
+    	margin: 1em 0 1em 1.5em;
+	}
+	section.pages#list-about p {
+    	margin: 0 0 0.5em 1em;
+    }
+    section.content-campanas {
+    	padding: 0 4%;
+    }
+    ul.menu-align-center.bulleted-list.bells-list {
+    	padding: 0;
+    }
+    section.pages.content-bells {
+    	padding: 14px 5%;
+	}
+	section.misterios li.wrapper-cards img {
+		float: none;
+	}
+	section.misterios {
+    	padding: 30px 13%;
+	}
+	section.misterios p {
+		margin: 0;
+		padding: 0;
 	}
 }
