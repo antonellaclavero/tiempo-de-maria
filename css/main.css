@@ -31,6 +31,7 @@ a {
 	text-decoration: none;
 	font-size: 1.2em;
 	color: #404040;
+	line-height: 1.2em;
 }
 ul {
 	list-style: none;
@@ -139,7 +140,7 @@ p {
 	font-style: italic;
 	margin: 0 0 0.5em 4.5em;
 	color: #404040;
-	font-weight: lighter;
+	/*font-weight: lighter;*/
 }
 .intro p.cite {
 	margin-bottom: 0;
@@ -201,7 +202,7 @@ article#oraciones-del-santo-rosario img {
 	margin-bottom: 1em;
 }
 article#oraciones-del-santo-rosario p.footer-image {
-	font-weight: normal;
+	/*font-weight: normal;*/
 	text-align: center;
 	font-size: 1em;
 }
@@ -230,7 +231,7 @@ article#misterios-del-santo-rosario p {
 p.intro {
 	font-style: normal;
 	padding: 25px 5% 0;
-	font-weight: 400;
+	/*font-weight: 400;*/
     line-height: 1.3em;
     text-align: left;
 }
@@ -334,10 +335,36 @@ section.pages.content-bells h4 {
 }
 section.pages.content-bells p {
 	font-style: normal;
-	font-weight: 300;
+	/*font-weight: 300;*/
     line-height: 1.2em;
     text-align: left;
 }
+/*styles for index reflexiones*/
+
+#reflexiones h1 {
+	text-align: center;
+}
+section#tiempo-de-adviento,
+#tiempo-de-cuaresma,
+#tiempo-de-navidad,
+#tiempo-de-pascua h2 {
+	text-align: center;
+}
+section.tiempos-liturgicos {
+	padding: 30px 27%;
+}
+section.tiempos-liturgicos p {
+	font-style: normal;
+	text-align: left;
+}
+section.tiempos-liturgicos h3 {
+	margin: 1.5em 0 0.5em 3.2em;
+}
+section.tiempos-liturgicos h4 {
+	margin: 0 0 0.5em 13%;
+}
+
+
 /*styles for index emisoras*/
 section#emisoras p {
 	font-style: normal;
@@ -374,7 +401,7 @@ footer a.email {
 	padding: 10px 15px;
 }
 footer a.footer-link {
-	margin-left: 3.5em;
+	margin-left: 10%;
 	color: #fff;
 	font-size: 1.2em;
 }
