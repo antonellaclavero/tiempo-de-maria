@@ -537,6 +537,32 @@ footer a.footer-link {
     	margin-left: 3em;
 	}
 	section#acerca-de-santo-rosario h2 {
-    	margin: 1em 0 1em 6%;
+    	text-align: center;
+    	margin: 1em 0 1em 1em;
+    }
+    article#oraciones-del-santo-rosario h3 {
+    	margin: 1em 0 1em 1.5em;
+    }
+    section#acerca-de-santo-rosario p {
+    	margin-left: 1em;
+    }
+    article#oraciones-del-santo-rosario li {
+    	margin: 0;
+    }
+    article#misterios-del-santo-rosario p {
+    	margin-left: 1.4em;
+    	text-align: left;
+    }
+    article#misterios-del-santo-rosario a {
+    	margin: 0 0 0em 9%;
+	}
+	article#indulgencias-beneficios-bendiciones ul.bulleted-list {
+		margin: 1em 0 0 2em;
+	}
+	article#promesas-del-santo-rosario {
+		padding: 0 0 40px 0px;
+	}
+	article#promesas-del-santo-rosario ol {
+		margin: 1em 0 0 2em;
 	}
 }
