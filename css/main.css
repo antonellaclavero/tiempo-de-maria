@@ -96,7 +96,7 @@ header a.title {
 header p {
 	margin: 0 0 0 4.5em;
 	padding: 8px 0 15px 0;
-	font-style: normal;
+	font-style: 400;
 	font-size: 1.8em;
 	color: #202020; 
 }
