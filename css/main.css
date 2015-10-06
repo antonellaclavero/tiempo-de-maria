@@ -91,6 +91,7 @@ header a.title {
 	font-size: 1.8em;
 	margin: 1em 0 1em 5.5em;
 	color: #202020;
+	font-weight: 400;
 }
 header p {
 	margin: 0 0 0 4.5em;
@@ -512,5 +513,30 @@ footer a.footer-link {
 	}
 	footer a.footer-link {
 		margin-left: 0;
+	}
+}
+@media screen and (max-width: 450px) {
+	header nav ul {
+		float: none;
+	}
+	header a.title {
+		margin: 0;
+	}
+	header p.title {
+		margin: 0;
+		text-align: center;
+	}
+	section.pages.header {
+    	padding: 60px 5%;
+    	margin: 0;
+	}
+	section#acerca-de-santo-rosario {
+    	padding: 0px 5% 0 0;
+    }
+    article#oraciones-del-santo-rosario img {
+    	margin-left: 3em;
+	}
+	section#acerca-de-santo-rosario h2 {
+    	margin: 1em 0 1em 6%;
 	}
 }
