@@ -2,8 +2,9 @@
 
 html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,img,ins,kbd,q,s,samp,small,strike,strong,sub,sup,tt,var,b,u,i,center,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,canvas,details,embed,figure,figcaption,footer,header,hgroup,menu,nav,output,ruby,section,summary,time,mark,audio,video{border:0;font-size:100%;font:inherit;vertical-align:baseline;margin:0;padding:0}article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section{display:block}body{line-height:1}ol,ul{list-style:none}blockquote,q{quotes:none}blockquote:before,blockquote:after,q:before,q:after{content:none}table{border-collapse:collapse;border-spacing:0}
 
-/*generic styles*/
-
+/*
+Generic styles
+*/
 body {
 	font-family: 'Open Sans', sans-serif;
 	font-weight: 300;
@@ -82,7 +83,9 @@ section.pages.content {
 section.sub-header {
 	padding: 8px 35%;
 }
-/*header */
+/*
+Styles for header 
+*/
 header {
 	background-color: #F5F1E3;
 	text-align: center;
@@ -123,7 +126,9 @@ header nav a:hover {
 
 }
 
-/*Home*/
+/*
+Styles for home
+*/
 #home {
 	background-color: #F5F1E3;
 	text-align: center;
@@ -178,7 +183,6 @@ section#que-hacemos li {
 	line-height: 1.2em;
 	color: #404040;
 }
-
 section#acerca-de-santo-rosario {
 	padding: 15px 15%;
 }
@@ -236,9 +240,9 @@ p.intro {
     line-height: 1.3em;
     text-align: left;
 }
-
-/*page: santo rosario index misterios*/
-
+/*
+Styles for index santo rosario - misterios
+*/
 section.misterios {
 	padding: 30px 19%;
 }
@@ -269,8 +273,9 @@ section.misterios p {
 	padding: 0 9%;
 	font-style: normal;
 }
-
-/*Styles for index "Oraciones"*/
+/*
+Styles for index Oraciones
+*/
 #oraciones-menu {
 	padding: 30px 15%;
 	min-height: 510px;
@@ -319,8 +324,9 @@ section.pages#list-about p {
 	margin: 0 0 0.5em 5em;
 	font-style: normal;
 }
-
-/*Styles for index campanas*/
+/*
+Styles for index campanas
+*/
 ul.menu-align-center.bulleted-list.bells-list {
 	padding: 20px 33%;
 }
@@ -339,8 +345,9 @@ section.pages.content-bells p {
     line-height: 1.2em;
     text-align: left;
 }
-/*styles for index reflexiones*/
-
+/*
+Styles for index reflexiones
+*/
 #reflexiones h1 {
 	text-align: center;
 }
@@ -365,9 +372,9 @@ section.tiempos-liturgicos h4 {
 	margin: 0 0 0.5em 13%;
 	text-align: left;
 }
-
-
-/*styles for index emisoras*/
+/*
+Styles for index emisoras
+*/
 section#emisoras p {
 	font-style: normal;
 	text-align: left;
@@ -382,9 +389,9 @@ section.emisoras li {
 section.emisoras h3 {
 	margin: 1em 0 1em 0;
 }
-
-/*footer*/
-
+/*
+footer
+*/
 footer {
 	background-color: #E78F8E;
 	padding: 35px 8%;
