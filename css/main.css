@@ -237,8 +237,6 @@ p.intro {
     text-align: left;
 }
 
-
-
 /*page: santo rosario index misterios*/
 
 section.misterios {
@@ -271,6 +269,7 @@ section.misterios p {
 	padding: 0 9%;
 	font-style: normal;
 }
+
 /*Styles for index "Oraciones"*/
 #oraciones-menu {
 	padding: 30px 15%;
@@ -309,8 +308,6 @@ section.wrapper-prayers article {
 section#reflexiones {
 	min-height: 480px;
 }
-
-
 section.pages#list-about {
 	padding: 7em 9%;
 }
@@ -322,6 +319,7 @@ section.pages#list-about p {
 	margin: 0 0 0.5em 5em;
 	font-style: normal;
 }
+
 /*Styles for index campanas*/
 ul.menu-align-center.bulleted-list.bells-list {
 	padding: 20px 33%;
@@ -463,6 +461,16 @@ footer a.footer-link {
     	margin: 1em 0 1em 13%;
     	text-align: left;
 	}
+	section.misterios {
+    	padding: 30px 25%;
+	}
+	section.misterios li.wrapper-cards img {
+		float: none;
+		margin: 0 0 0 2.2em;
+	}
+	section.misterios h3 {
+    	margin: 0.5em 0 0.5em 11%;
+    }
 	#oraciones-menu {
     	padding: 30px 0;
 	}
