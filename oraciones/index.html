@@ -4,20 +4,10 @@ layout: page
 <section class="pages header" id="oraciones-menu">
 	<h1>Oraciones</h1>
 	<ul class="menu-align-left bulleted-list">
-		<li>
-			<a href="dios-padre/index.html">A Dios Padre</a>
-		</li>
-		<li>
-			<a href="jesucristo-sagrado-corazon/index.html">A Jesucristo y al Sagrado Corazón</a>
-		</li>
-		<li>
-			<a href="espiritu-santo/index.html">Al Espíritu Santo</a>
-		</li>
-		<li>
-			<a href="virgen-maria/index.html">A la Virgen María</a>
-		</li>
-		<li>
-			<a href="seguimos-rezando/index.html">Seguimos rezando...</a>
-		</li>
+		{% for oracion in site.oraciones %}
+			<li>
+				<a href="{{ oracion.url }}">{{ oracion.title }}</a>
+			</li>
+		{% endfor %}
 	</ul>
 </section>

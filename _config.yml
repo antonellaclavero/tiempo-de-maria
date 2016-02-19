@@ -7,3 +7,8 @@ email: contacto@tiempodemaria.com.uy
 # Build settings
 markdown: kramdown
 permalink: /:categories/:title
+
+collections:
+    oraciones:
+        output: true
+        permalink: /oraciones/:path/
