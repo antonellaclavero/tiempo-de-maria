@@ -12,3 +12,11 @@ collections:
     oraciones:
         output: true
         permalink: /oraciones/:path/
+    santorosario:
+        output: true
+        permalink: /santorosario/:path/
+    misterios:
+        output: true
+        permalink: /santorosario/misterios/:path/
+    jaculatorias:
+        output: false

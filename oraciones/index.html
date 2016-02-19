@@ -4,7 +4,7 @@ layout: page
 <section class="pages header" id="oraciones-menu">
 	<h1>Oraciones</h1>
 	<ul class="menu-align-left bulleted-list">
-		{% for oracion in site.oraciones %}
+		{% for oracion in site.oraciones | sort: 'order' %}
 			<li>
 				<a href="{{ oracion.url }}">{{ oracion.title }}</a>
 			</li>

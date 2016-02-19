@@ -1,0 +1,18 @@
+ ---
+ layout: page
+ ---
+
+<section class="pages header" id="jaculatorias">
+    <h1>Jaculatorias</h1>
+    <p>
+        “Tiempo de María” propone estas invocaciones piadosas con las que acompaña cada grupo de Misterios d urante el rezo del Rosario.
+    </p>
+    <p>
+        Se repiten antes de anunciar el Misterio correspondiente.
+    </p>
+
+    {% for jaculatoria in site.jaculatorias %}
+        <h3>{{ jaculatoria.title }}</h3>
+        {{ jaculatoria.content }}
+    {% endfor %}
+</section>
