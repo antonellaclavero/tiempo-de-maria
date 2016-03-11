@@ -7,8 +7,13 @@ layout: page
 		Tiempo de María agradece el estímulo que recibe de los oyentes de las distintas emisoras por las cuales se transmite “Tiempo de María”, que nos expresan su alegría de contar con un espacio mariano que, en muchos casos, les es una compañía muy querida. No solamente por la oración en común, encomendando todos las necesidades de cada uno, sino por las reflexiones, historias y testimonios, que escuchan con atención, y les dejan una enseñanza o motivo de reflexión.<br>
 		¡Que Dios los bendiga! 
 	</p>
+		{% for nosotros in site.nosotros %}
+			<h3>{{ nosotros.title }}</h3>
+			{{ nosotros.content }}
+		{% endfor %}
 </section>
-<section class="pages" id="list-about">
+
+<!--section class="pages" id="list-about">
 	<ul> 
 		<li>
 			<h3>Relato de una pequeña historia</h3>
@@ -86,4 +91,4 @@ layout: page
 			</p>
 		</li>
 	</ul>
-</section>
+</section-->
